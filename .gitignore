@@ -1,0 +1,6 @@
+/build
+/build_rinkeby
+/migrations
+/node_modules
+.env
+truffle.js
