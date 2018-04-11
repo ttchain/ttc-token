@@ -18,7 +18,6 @@ contract TTCToken is StandardToken, BurnableToken, Ownable {
     string  public constant name = "Tabs Tracking Chain";
     string  public constant symbol = "TTC";
     uint8   public constant decimals = 18;
-    string  public constant website = "www.ttchain.io"; 
     uint256 public constant INITIAL_SUPPLY      =  600000000 * (10 ** uint256(decimals));
     uint256 public constant CROWDSALE_ALLOWANCE =  480000000 * (10 ** uint256(decimals));
     uint256 public constant ADMIN_ALLOWANCE     =  120000000 * (10 ** uint256(decimals));
